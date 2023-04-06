@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "side-winder.Api", "side-win
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "side-winder.Domain", "side-winder.Domain\side-winder.Domain.csproj", "{1EA11CEE-7372-4B3E-BAB6-10B18BD12A70}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "side-winder.Data", "side-winder.Data\side-winder.Data.csproj", "{D39B1204-3A75-4BE1-A70B-1DBE8F516610}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -24,5 +26,9 @@ Global
 		{1EA11CEE-7372-4B3E-BAB6-10B18BD12A70}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1EA11CEE-7372-4B3E-BAB6-10B18BD12A70}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{1EA11CEE-7372-4B3E-BAB6-10B18BD12A70}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D39B1204-3A75-4BE1-A70B-1DBE8F516610}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D39B1204-3A75-4BE1-A70B-1DBE8F516610}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D39B1204-3A75-4BE1-A70B-1DBE8F516610}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D39B1204-3A75-4BE1-A70B-1DBE8F516610}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
