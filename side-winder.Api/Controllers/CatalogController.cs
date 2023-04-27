@@ -2,6 +2,7 @@ using Microsoft.AspNetCore.Mvc;
 using side.winder.Domain.Catalog;
 using side.winder.Data;
 using Microsoft.EntityFrameworkCore;
+using Microsoft.AspNetCore.Authorization;
 
 namespace side.winder.Api.Controllers
 {
@@ -82,6 +83,7 @@ namespace side.winder.Api.Controllers
         }
 
         [HttpDelete("{id:int}")]
+        [Authorize("delete:catalog")]
         public IActionResult DeleteItem(int id)
         {
             var item = _db.Items.Find(id);
